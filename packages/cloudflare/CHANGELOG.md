@@ -1,5 +1,16 @@
 # @vinext/cloudflare
 
+## 0.2.0
+
+### Features
+
+- **Init:** scaffold for cloudflare and node (#2279)
+- **Images:** configure image optimization via vinext({ images }) adapter (#1873)
+
+### Contributors
+
+- @james-elicx
+
 ## 0.1.2
 
 ### Bug Fixes

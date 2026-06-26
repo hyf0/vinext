@@ -1,5 +1,57 @@
 # vinext
 
+## 0.2.0
+
+### Features
+
+- **Init:** scaffold for cloudflare and node (#2279)
+- **Images:** configure image optimization via vinext({ images }) adapter (#1873)
+
+### Bug Fixes
+
+#### App Router
+
+- scroll past existing hoisted styles (#2356)
+- include page segment in flight state (#2359)
+- discover nested leaf slot routes (#2350)
+- restore intercepted history slots (#2363)
+- preserve interception across middleware rewrites (#2342)
+- honor global not found opt-in (#2340)
+- replay prerendered preload headers (#2333)
+- bind layout-only children defaults (#2335)
+- scope static params across parallel routes (#2317)
+- skip prefetches for bots (#2323)
+- render templates with children only (#2322)
+- align static dynamic params parity (#2321)
+- avoid probing client references (#2313)
+- match dynamic request analysis parity (#2253)
+
+#### Misc
+
+- **Server:** restore client trace metadata parity (#2371)
+- **CSS:** support namespace CSS Module imports (#2345)
+- **Link:** start viewport prefetches immediately (#2229)
+- **Router:** honor middleware app rewrites for page links (#2339)
+- **Form:** match Next.js navigation parity (#2245)
+- **Client:** isolate Pages Router module graph (#2380)
+- **Image:** match App Router deploy parity (#2310)
+- **Cache:** bypass unstable cache in draft mode (#2319)
+- **Pages Router:** unify client asset bootstrap (#2378)
+- **CLI:** respect Vite dev server config (#2379)
+- **Cache:** throw updateTag context errors synchronously (#2311)
+- **Config:** match trailing-slash route sources (#2255)
+- **Pages Router:** split scanned file paths on forward slashes (#2297)
+- **Config:** match deprecation warning parity (#2252)
+- **Pages:** match optional catch-all prerender paths (#2238)
+- **Middleware:** match Pages data request metadata (#2239)
+- **Actions:** match root params execution phases (#2248)
+- **Build:** align SSR CSS asset paths (#2291)
+
+### Contributors
+
+- @james-elicx
+- @shulaoda
+
 ## 0.1.8
 
 ### Bug Fixes
